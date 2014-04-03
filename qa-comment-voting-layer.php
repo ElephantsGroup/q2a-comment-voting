@@ -109,7 +109,7 @@
 					var postelem=document.getElementById(anchor);
 					postelem.parentNode.insertBefore(mess, postelem);
 				} else {
-					alert('Unexpected response from server - please try again.');
+					alert('" . qa_lang('comment_voting/js_vote_error') . "');
 				}
 			} 
 		});
@@ -124,7 +124,7 @@
 			if(qa_opt('voting_on_cs')) {
 				
 				$this->output('
-<style>
+<style type="text/css">
 	.comment-votable-container {
 		width:100% !important;
 	}

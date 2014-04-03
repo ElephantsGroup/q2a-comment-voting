@@ -1,16 +1,16 @@
 <?php
 		
 /*			  
-		Plugin Name: Comment Voting
-		Plugin URI: https://github.com/NoahY/q2a-comment-voting
-		Plugin Update Check URI: https://raw.github.com/NoahY/q2a-comment-voting/master/qa-plugin.php
-		Plugin Description: Vote on comments
-		Plugin Version: 1.4
-		Plugin Date: 2011-08-15
-		Plugin Author: NoahY
-		Plugin Author URI:							  
-		Plugin License: GPLv2						   
-		Plugin Minimum Question2Answer Version: 1.3
+	Plugin Name: Comment Voting
+	Plugin URI: https://github.com/ElephantsGroup/q2a-comment-voting
+	Plugin Update Check URI: https://raw.github.com/ElephantsGroup/q2a-comment-voting/master/qa-plugin.php
+	Plugin Description: Vote on comments
+	Plugin Version: 1.5.0
+	Plugin Date: 2014-04-03
+	Plugin Author: NoahY
+	Plugin Author URI:							  
+	Plugin License: GPLv2						   
+	Plugin Minimum Question2Answer Version: 1.3
 */					  
 						
 						
@@ -25,7 +25,7 @@
 						
 	if(function_exists('qa_register_plugin_phrases')) {
 		qa_register_plugin_overrides('qa-cv-overrides.php');
-		qa_register_plugin_phrases('qa-cv-lang-*.php', 'comment_voting');
+		qa_register_plugin_phrases('lang/qa-cv-lang-*.php', 'comment_voting');
 	}
 
 	if(!function_exists('qa_permit_check')) {

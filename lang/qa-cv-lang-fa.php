@@ -25,13 +25,16 @@
 */
 
 	return array(
-		'permit_vote_c' => 'Vote on comments',
-		'badge_nice_comment' => 'Nice Comment',
-		'badge_good_comment' => 'Good Comment',
-		'badge_great_comment' => 'Great Comment',
-		'badge_nice_comment_desc' => 'Comment received +# upvote',
-		'badge_good_comment_desc' => 'Comment received +# upvote',
-		'badge_great_comment_desc' => 'Comment received +# upvote',
+		'permit_vote_c' => 'امتیاز به دیدگاه',
+		'badge_nice_comment' => 'دیدگاه خوب',
+		'badge_good_comment' => 'دیدگاه عالی',
+		'badge_great_comment' => 'دیدگاه فوق العاده',
+		'badge_nice_comment_desc' => 'دیدگاه +# امتیاز مثبت دریافت کرد',
+		'badge_good_comment_desc' => 'دیدگاه +# امتیاز مثبت دریافت کرد',
+		'badge_great_comment_desc' => 'دیدگاه +# امتیاز مثبت دریافت کرد',
+		'enable_upvote' => 'فعال کردن امتیاز مثبت به دیدگاه',
+		'enable_downvote' => 'فعال کردن امتیاز منفی به دیدگاه',
+		'js_vote_error' => 'اشکالی رخ داده است، دوباره تلاش کنید.',
 	);
 	
 

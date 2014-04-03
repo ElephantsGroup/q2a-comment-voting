@@ -52,7 +52,7 @@
 			if (qa_clicked('comment_voting_save')) {
 				qa_opt('voting_on_cs',(bool)qa_post_text('voting_on_cs'));
 				qa_opt('voting_down_cs',(bool)qa_post_text('voting_down_cs'));
-				$ok = 'Settings Saved.';
+				$ok = qa_lang_html('admin/options_saved');
 			}
 			
 					
@@ -62,14 +62,14 @@
 			$fields = array();
 			
 			$fields[] = array(
-				'label' => 'Enable comment voting',
+				'label' => qa_lang('comment_voting/enable_upvote'),
 				'tags' => 'NAME="voting_on_cs"',
 				'value' => qa_opt('voting_on_cs'),
 				'type' => 'checkbox',
 			);
 			
 			$fields[] = array(
-				'label' => 'Enable comment down-voting',
+				'label' => qa_lang('comment_voting/enable_downvote'),
 				'tags' => 'NAME="voting_down_cs"',
 				'value' => qa_opt('voting_down_cs'),
 				'type' => 'checkbox',
@@ -82,7 +82,7 @@
 			 
 				'buttons' => array(
 					array(
-						'label' => 'Save',
+						'label' => qa_lang_html('admin/save_options_button'),
 						'tags' => 'NAME="comment_voting_save"',
 					)
 				),
